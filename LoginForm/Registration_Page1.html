@@ -1,0 +1,140 @@
+<HTML>
+    
+<head>
+    <title>Registration Form</title>
+    <style>
+        form{
+            position:absolute;
+            left: 36%;
+            top: 200px;
+        }
+        h1{
+            font-size: 40px;
+            position: absolute;
+            top: 150px;
+            left: 40%;
+        }
+        b{
+            font-size: 22px;
+        } 
+        #name{
+            font-family: cursive;
+            position: absolute;
+            top:60px;
+        }
+        #name1{
+            margin-top: 80px;
+            font-family: inherit;
+            font-size: 18px;
+            height: 32px;
+            width: 100%;
+            background-color: lightgray;
+        }
+        #dob{
+            font-family: cursive;   
+            position: absolute;
+            top: 140px;
+        }
+        #dob1{
+            font-family: inherit;
+            position: absolute;
+            top: 175px;
+            font-size: 18px;
+            height: 32px;
+            width: 100%;
+            background-color: lightgray;
+        }
+        #sex{
+            font-family: cursive;
+            position: absolute;
+            top: 210px; 
+        }
+        #male{
+            margin-top: 67px;
+        }
+        #email{
+            font-family: cursive;
+            position: absolute;
+            top: 270px;
+        }
+        #email1{
+            font-family:inherit;
+            font-size: 18px;
+            height: 32px;
+            width: 100%;
+            position: absolute;
+            top: 310px;
+            background-color: lightgray;
+            border-style: outset;
+        }
+        #dept{
+            font-family: cursive;
+            position: absolute;
+            top: 350px;
+        }
+        select{
+            font-family: inherit;
+            font-size: 18px;
+            height: 28px;
+            width: 100%;
+            position: absolute;
+            top: 390px;
+            background-color: lightgray;
+            border-style: outset;
+        }
+        #number{
+            font-family: cursive;
+            position: absolute;
+            top: 420px;
+        }
+        #number1{
+            font-family:inherit;
+            font-size: 18px;
+            height: 32px;
+            width: 100%;
+            position: absolute;
+            top: 460px;
+            background-color: lightgray;
+            border-style: outset;
+        }
+        .sub{
+            font-size: 22px;
+            position: absolute;
+            top: 540px;
+            width: 100.5%;
+            height: 50px;
+            border-radius: 25px;
+            background-color: #0099cc;
+        }
+    </style>
+</head>
+    
+<body>
+            
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name" id="name"><b>Name : </b></label><br>
+        <input type="text" placeholder="Name" id="name1" size="40" required><br>
+        <label for="DOB" id="dob"><b>Date of Birth : </b></label><br>
+        <input type="date" placeholder="dob" id="dob1" required><br>
+        <label id="sex"><b>Sex : </b></label><br>
+        <input type="radio" id="male" required>
+        <label for="male" id="male"><b>Male</b></label>
+        <input type="radio" id="female" required>
+        <label for="female" id="female"><b>Female</b></label><br>
+        <label for="email" id="email"><b>Email :</b></label><br>
+        <input type="email" placeholder="Email" id="email1" size="40" required><br>
+        <label  for="department" id="dept"><b>Department</b></label><br>
+        <select name="dept">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="EC">EC</option>
+            <option value="ME">ME</option>
+        </select><br>
+        <label for="number" id="number"><b>Mobile Number : </b></label><br>
+        <input type="number" placeholder="Mobile Number" id="number1" required><br>
+        <button type="submit" class="sub" >Submit</button>
+    </form>
+</body>
+    
+</HTML>
